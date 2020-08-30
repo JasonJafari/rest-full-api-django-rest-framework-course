@@ -1,0 +1,16 @@
+title: Rest full API Django rest framework
+description: Rest full API Django rest framework
+template:
+  repo: rest-full-api-django-rest-framework-template
+  name: rest-full-api-django-rest-framework
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
